@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <title>Spotify-Clone</title>
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="home bg-gray rounded  p-1">
+          <div class="logo invert">
+            <img src="./image/logo.svg" alt="logo" height="30x" width="auto" />
+            <img src="image/cross.svg" alt="cross" class="close"/>
+          </div>
+          <ul>
+            <li>
+              <div><i class="fa-solid fa-house"></i></div>
+              <div class="text">Home</div>
+            </li>
+            <li>
+              <div><i class="fa-solid fa-magnifying-glass"></i></div>
+              <div class="text">Search</div>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="library rounded bg-gray  p-1">
+          <div class="heading">
+            <img src="image/library.svg" alt="libary" class="invert" />
+            <h2>Your library</h2>
+          </div>
+          <div class="song-list">
+            <ul>
+            </ul>
+          </div>
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/privacy/"
+                ><span>Privacy Center</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="header flex p-1 rounded">
+            <div class="nav p-1">
+              <img src="image/menu.svg" alt="hum" class="humberger invert" />
+                <i class="fa-solid fa-angle-left"></i>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="button">
+                <button class="signup login">Sign Up</button>
+                <button class="login">Login</button>
+            </div>
+        </div>
+        <div class="box">
+        <div class="spotify-play-list p-1 bg-gray">
+            <h1 class="h p-1">Your PlayList</h1>
+            <div class=" cardList p-1"> 
+            </div>
+            </div>
+        
+        <div class="sleep rounded  p-1 bg-gray">
+            <h2>Sleep</h2>
+            <div class="cardList p-1">
+                <div class="item1 card">
+                    <div  class="play">
+                        <i class="fa-solid fa-play iconPlay"></i>
+                    </div>
+                    <img src="image/music.jpg"
+                    <h1>music</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+
+                </div>
+                <div class="item1 card">
+                    <div class="play">
+                        <i class="fa-solid fa-play iconPlay"></i>
+                    </div>
+                    <img src="image/music.jpg"
+                    <h1>music</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom bg-black p-1">
+            <div class="first">
+                <h1>shamim</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="first">
+                <h1>shamim</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="first">
+                <h1>shamim</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="first">
+                <h1>shamim</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          
+        </div>
+        <div class="line">
+            <hr />
+        </div>
+        <div class="copy-right">
+            <div class="textp">
+                <p> Copy right &#169; 2024</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- playlist -->
+    <div class="play-list rounded">
+        <!-- <h2>this is play list</h2> -->
+        <div class="song-details">
+          <div class="song-info"></div>
+          <div class="play-now">
+            <div id="prev"><i class="fa-solid fa-backward"></i></div>
+            <div id="start" class="invert"><img src="image/play.svg" alt="play" /></div>
+            <div id="next"><i class="fa-solid fa-forward"></i></div>
+          </div>
+         
+          <div class="volume">
+            <div class="time"></div>
+            <div> <img src="image/volume.svg" alt="v" class="volume invert"/></div>
+            <div class="range">
+              <input type="range" name="volume" id="">
+          </div>
+          </div>
+        </div>
+     
+        <div class="seekbar">
+          <div class="circle">
+          </div>
+        </div>
+    </div>
+      </div>
+    </div>
+    <script src="script.js" ></script>
+  </body>
+</html>
