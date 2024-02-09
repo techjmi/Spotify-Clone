@@ -29,7 +29,8 @@ Welcome to the Spotify Clone project! This project is a simple web-based applica
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/spotify-clone.git
+   git clone https:https://github.com/techjmi/Spotify-Clone.git
+   
    ```
 
 2. Open the `index.html` file in your web browser.
